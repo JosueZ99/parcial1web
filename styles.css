@@ -1,0 +1,51 @@
+#card {
+    height: 300px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    height: 280px;
+    margin: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:Georgia;
+}
+
+
+.topAce {
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+.bottomAce {
+    font-size: 30px;
+    align-self: flex-end;
+    rotate: 180deg;
+}
+
+.topSpade {
+    font-size: 35px;
+    align-self: flex-start;
+}
+
+.bottomSpade {
+    font-size: 35px;
+    align-self: flex-end;
+    rotate: 180deg;
+}
+
+.bigSpade {
+    align-self: center;
+    font-size: 110px;
+}
+
